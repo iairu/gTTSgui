@@ -1,11 +1,31 @@
-## Simple gTTS GUI
+# Simple gTTS GUI
 
-# Currently broken because of google apis and outdated libs
+Are you struggling to find a high-quality free TTS online? Frustrated that the best quick TTS is only available through Google Translate? Want to save the TTS output for later use?
 
-Can't find a reasonably-good free TTS online? Annoyed that the only good quick TTS is an indirect part of Google Translate? Want to save the TTS output, so that you can play it whenever?
+This simple GUI is here to help! It provides a large text area for input and a single button to save the output, making it easy and convenient to use.
 
-This simple GUI solves your problems by simply offering a giant text area and a single button to save the output.
+The GUI is built using tkinter, ensuring a lightweight and responsive experience.
 
-GUI built using tkinter.
+## Installation
 
-Currently no plans to expand this project.
+1. Create a virtual environment:
+    ```sh
+    python3 -m venv venv
+    ```
+
+2. Activate the virtual environment:
+    ```sh
+    source venv/bin/activate
+    ```
+
+3. Install the required package:
+    ```sh
+    pip3 install gtts
+    ```
+
+4. Run the application:
+    ```sh
+    python3 .
+    ```
+
+Currently, there are no plans to expand this project, but contributions are welcome!

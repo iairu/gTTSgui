@@ -5,3 +5,4 @@ gtts
 *.spec
 *.bak1
 *.bak2
+venv
